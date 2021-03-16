@@ -18,7 +18,7 @@ xkb_symbols "basic" {
 	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 0 ] };
 	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ dead_diaeresis ] };
 	key <AE11> { type[group1] = "FOUR_LEVEL", [dead_circumflex] };
-	key <AE12> { type[group1] = "FOUR_LEVEL", [U00DF] };
+	key <AE12> { type[group1] = "FOUR_LEVEL", [U007C,U00DF] };
 
 	key <AD01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ b ,B ,dead_macron ] };
 	key <AD02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ eacute ,Eacute ,dead_acute ] };
@@ -59,4 +59,3 @@ xkb_symbols "basic" {
 	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F] };
 	key <SPCE> { type[group1] = "FOUR_LEVEL", [ space ,slash ,underscore ,backslash ] };
 };
-
