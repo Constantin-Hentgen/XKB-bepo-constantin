@@ -8,4 +8,4 @@ The greatest strengths of this custom layout is the position of the most common 
 The biggest difference with the classic bépo layout is the position of the "ç" key.
 This layout allows pinyin tones input and German typing too.
 
-![image](https://user-images.githubusercontent.com/48366000/110103673-7bcce200-7da6-11eb-89b5-5cc68c9d2399.png)
+![image](https://user-images.githubusercontent.com/48366000/111680161-38e92080-8822-11eb-89d8-6a18f1721ec3.png)
