@@ -1,0 +1,69 @@
+// bıpo
+default  partial
+xkb_symbols "basic" {
+
+    include "level3(ralt_switch)"
+    include "keypad(oss)"
+ 
+    // First row	       
+    key <TLDE> {                                             [  dead_circumflex	,dead_diaeresis ] };	//^¨
+    key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  ampersand		,asciitilde	] };	//1&~
+    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  braceleft				] };	//2{
+    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  parenleft				] };	//3(
+    key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  bracketleft		,U221E		] };	//4[∞
+    key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  less 	 		,U2260		] };	//5<≠
+    key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  U003E			,U222B	  	] };	//6>∫
+    key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  U002A			,U03A3		] };	//7*Σ
+    key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  bracketright		,U1D6AB	] };	//8]𝚫
+    key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  parenright		,U03C0		] };	//9)π
+    key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  braceright		,U00B0		] };	//0}°
+    key <AE11> { 					      [  equal			,U00B1	        ] };	//=±
+    key <AE12> { 					      [  numbersign     	,dollar	] };	//#$
+
+    // Second row
+    key <AD01> { [	b		,B					] };	//bB
+    key <AD02> { [	U0131		,U0049					] };	//ıI
+    key <AD03> { [	p		,P					] };	//pP
+    key <AD04> { [	o		,O					] };	//oO
+    key <AD05> { [	U011F		,U011E					] };	//ğĞ
+    key <AD06> { [	ccedilla	,exclam         ,U00EF	          	] };	//ç!ï
+    key <AD07> { [	w		,W 					] };	//wW
+    key <AD08> { [	d		,D					] };	//dD
+    key <AD09> { [	l		,L			 		] };	//lL
+    key <AD10> { [	j		,J					] };	//jJ
+    key <AD11> { [	z		,Z					] };	//zZ
+    key <AD12> { [	v		,V  		  			] };    //vV
+    
+    
+    // Third row
+    key <AC01> { [	a		,A					] };	//aA
+    key <AC02> { [	u		,U					] };	//uU
+    key <AC03> { [	i		,I					] };	//iI
+    key <AC04> { [	e		,E		,at			] };	//eE@
+    key <AC05> { [	comma		,U003B					] };	//,;
+    key <AC06> { [	c		,C	 				] };	//cC
+    key <AC07> { [	t		,T					] };	//tT
+    key <AC08> { [	s		,S		,ssharp		] };	//sSß
+    key <AC09> { [	r		,R				 	] };	//rR
+    key <AC10> { [	n		,N					] };	//nN
+    key <AC11> { [	m		,M					] };	//mM
+    key <BKSL> { [	U015F		,U015E					] };	//şŞ
+    
+
+    // Fourth row
+    key <LSGT> { [     U00F6		,U00D6		           		] };	//öÖ
+    key <AB01> { [     U00FC		,U00DC 	  			] };	//üÜ
+    key <AB02> { [     y		,Y					] };	//yY
+    key <AB03> { [     x		,X					] };	//xX
+    key <AB04> { [     period		,colon		,U2026			] };	//.:…
+    key <AB05> { [     k		,K					] };	//kK
+    key <AB06> { [     apostrophe	,question	,U0060			] };	//'?`
+    key <AB07> { [     q		,Q					] };	//qQ
+    key <AB08> { [     g		,G		,U002D 		] };	//gG-
+    key <AB09> { [     h		,H		,U002B			] };	//hH+
+    key <AB10> { [     f		,F		      			] };	//fF
+    key <SPCE> { [     space	,slash	,underscore	,backslash		] };	// /_\   
+    
+};
+
+
