@@ -5,5 +5,5 @@ BÉPO is basically a French adaptation of the Dvorak one which is an optimized k
 The greatest strength of this custom layout is the position of the most common special characters for coding.
 This layout allows pīnyīn tones input.
 
-![image](https://user-images.githubusercontent.com/48366000/111680161-38e92080-8822-11eb-89d8-6a18f1721ec3.png)
+![image](https://user-images.githubusercontent.com/48366000/133980696-962e5b63-b55e-4789-9740-3d8c74bad078.png)
 ![image](https://user-images.githubusercontent.com/48366000/133980509-e99520d3-0089-4bbd-b750-bbf2c882a879.png)
