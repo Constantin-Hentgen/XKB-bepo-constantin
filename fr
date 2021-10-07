@@ -6,100 +6,56 @@ xkb_symbols "basic" {
 	include "pc(pc105)"
 	include "level3(ralt_switch)"
 	
-	key <TLDE> { type[group1] = "FOUR_LEVEL", [1] };
-	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 2 ] };
-	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 3 ] };
-	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 4 ] };
-	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 5 ] };
-	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 6 ] };
-	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 7 ] };
-	key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 8 ] };
-	key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 9 ] };
-	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 0 ] };
-	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ dead_diaeresis ] };
-	key <AE11> { type[group1] = "FOUR_LEVEL", [dead_circumflex] };
-	key <AE12> { type[group1] = "FOUR_LEVEL", [U007C,U00DF] };
+	key <TLDE> { type[group1] = "FOUR_LEVEL", [  ] };
+	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 1, 1 ] };
+	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 2, 2 ] };
+	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 3, 3 ] };
+	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 4, 4 ] };
+	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 5, 5 ] };
+	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 6, 6 ] };
+	key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 7, 7 ] };
+	key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 8, 8 ] };
+	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 9, 9 ] };
+	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 0, 0 ] };
+	key <AE11> { type[group1] = "FOUR_LEVEL",  [ ] };
+	key <AE12> { type[group1] = "FOUR_LEVEL",  [ ] };
 
-	key <AD01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ b ,B ,dead_macron ] };
-	key <AD02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ eacute ,Eacute ,dead_acute ] };
-	key <AD03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ p ,P ,dead_caron ] };
-	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o ,O ,dead_grave,U0152 ] };
+	key <AD01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ b ,B , at ] };
+	key <AD02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ eacute ,Eacute, percent ] };
+	key <AD03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ p ,P ,colon ] };
+	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o ,O ,ccedilla ] };
 	key <AD05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ egrave,Egrave,oe ] };
-	key <AD06> { type[group1] = "FOUR_LEVEL", [  ccedilla ,exclam,U00EF] };
+	key <AD06> { type[group1] = "FOUR_LEVEL", [  dead_circumflex ,exclam] };
 	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v ,V,braceright] };
 	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D,parenright] };
 	key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L,bracketright] };
-	key <AD10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ j, J,equal] };
+	key <AD10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ j, J] };
 	key <AD11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ z, Z] };
 	key <AD12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ w, W] };
 
-	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A,U00E2 ] };
-	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u ,U,U00F4  ] };
-	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i  ,I,U00EE ] };
-	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e ,E ,at ] };
-	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma ,U003B,asciitilde ] };
-	key <AC06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ c ,C,U20AC] };
-	key <AC07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ t, T,braceleft] };
-	key <AC08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ s, S,parenleft] };
-	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R,bracketleft] };
-	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N,quotedbl] };
-	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M,numbersign] };
-	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ugrave ,percent,dollar] };
+	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A,U002A  ] };
+	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U,U002B  ] };
+	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I,U002D ] };
+	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E,equal ] };
+	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, U003B, numbersign ] };
+	key <AC06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ c ,C, U20AC] };
+	key <AC07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ t, T, braceleft] };
+	key <AC08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ s, S, parenleft] };
+	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, bracketleft] };
+	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, quotedbl] };
+	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M,U007C] };
+	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ugrave] };
 
-	key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ecircumflex ,Ecircumflex,U00FB] };
-	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave ,Agrave,ampersand ] };
+	key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ecircumflex, Ecircumflex] };
+	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave ,Agrave ,ampersand ] };
 	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y ,Y ,less ] };
 	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x ,X ,greater ] };
-	key <AB04> { type[group1] = "FOUR_LEVEL", [ period ,colon ,U2026 ] };
-	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K] };
+	key <AB04> { type[group1] = "FOUR_LEVEL", [ period ,U2026 ,colon ] };
+	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K ] };
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe ,question ,U0060 ] };
-	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q ,Q,U002B] };
-	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g ,G ,U002D ] };
-	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h ,H ,U002A ] };
-	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F] };
+	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q ,Q ] };
+	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g ,G,dollar  ] };
+	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h ,H , dead_diaeresis] };
+	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F ] };
 	key <SPCE> { type[group1] = "FOUR_LEVEL", [ space ,slash ,underscore ,backslash ] };
-};
-
-
-SAVE :
-
-default partial alphanumeric_keys
-xkb_symbols "basic" {
-
-    include "latin"
-
-    name[Group1]="French";
-
-    key <AE01>	{ [ ampersand,          1,  onesuperior,   exclamdown ]	};
-    key <AE02>	{ [    eacute,          2,   asciitilde,    oneeighth ]	};
-    key <AE03>	{ [  quotedbl,          3,   numbersign,     sterling ]	};
-    key <AE04>	{ [apostrophe,          4,    braceleft,       dollar ]	};
-    key <AE05>	{ [ parenleft,          5,  bracketleft, threeeighths ]	};
-    key <AE06>	{ [     minus,          6,          bar,  fiveeighths ]	};
-    key <AE07>	{ [    egrave,          7,        grave, seveneighths ]	};
-    key <AE08>	{ [underscore,          8,    backslash,    trademark ]	};
-    key <AE09>	{ [  ccedilla,          9,  asciicircum,    plusminus ]	};
-    key <AE10>	{ [    agrave,          0,           at,       degree ]	};
-    key <AE11>	{ [parenright,     degree, bracketright, questiondown ]	};
-    key <AE12>	{ [     equal,       plus,   braceright,  dead_ogonek ]	};
-
-    key <AD01>	{ [         a,          A,           ae,           AE ]	};
-    key <AD02>	{ [         z,          Z, guillemotleft,        less ]	};
-    key <AD03>	{ [         e,          E,     EuroSign,         cent ]	};
-    key <AD11>	{ [dead_circumflex, dead_diaeresis, dead_diaeresis, dead_abovering ] };
-    key <AD12>	{ [    dollar,   sterling,     currency,  dead_macron ]	};
-
-    key <AC01>	{ [         q,          Q,           at,  Greek_OMEGA ]	};
-    key <AC10>	{ [         m,          M,           mu,    masculine ]	};
-    key <AC11>	{ [    ugrave,    percent, dead_circumflex, dead_caron]	};
-    key <TLDE>	{ [twosuperior, asciitilde,     notsign,      notsign ]	};
-
-    key <BKSL>	{ [  asterisk,         mu,   dead_grave,   dead_breve ]	};
-    key <AB01>	{ [         w,          W,      lstroke,      Lstroke ]	};
-    key <AB07>	{ [     comma,   question,   dead_acute, dead_doubleacute ] };
-    key <AB08>	{ [ semicolon,     period, horizconnector,   multiply ]	};
-    key <AB09>	{ [     colon,      slash, periodcentered,   division ]	};
-    key <AB10>	{ [    exclam,    section, dead_belowdot, dead_abovedot ] };
-
-    include "level3(ralt_switch)"
 };
