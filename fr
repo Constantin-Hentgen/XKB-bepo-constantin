@@ -6,18 +6,18 @@ xkb_symbols "basic" {
 	include "pc(pc105)"
 	include "level3(ralt_switch)"
 	
-	key <TLDE> { type[group1] = "FOUR_LEVEL", [  ] };
+	key <TLDE> { type[group1] = "FOUR_LEVEL", [ exclam ] };
 	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 1, 1 ] };
 	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 2, 2 ] };
-	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 3, 3 ] };
+	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ KP_Delete, 3 ] };
 	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 4, 4 ] };
 	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 5, 5 ] };
 	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 6, 6 ] };
 	key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 7, 7 ] };
 	key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 8, 8 ] };
-	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 9, 9 ] };
-	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 0, 0 ] };
-	key <AE11> { type[group1] = "FOUR_LEVEL",  [ ] };
+	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [BackSpace , 9 ] };
+	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [dead_circumflex, 0 ] };
+	key <AE11> { type[group1] = "FOUR_LEVEL",  [9  ] };
 	key <AE12> { type[group1] = "FOUR_LEVEL",  [ ] };
 
 	key <AD01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ b ,B , at ] };
@@ -25,7 +25,7 @@ xkb_symbols "basic" {
 	key <AD03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ p ,P ,colon ] };
 	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o ,O ,ccedilla ] };
 	key <AD05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ egrave,Egrave,oe ] };
-	key <AD06> { type[group1] = "FOUR_LEVEL", [  dead_circumflex ,exclam] };
+	key <AD06> { type[group1] = "FOUR_LEVEL", [KP_Enter ] };
 	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v ,V,braceright] };
 	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D,parenright] };
 	key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L,bracketright] };
@@ -33,10 +33,10 @@ xkb_symbols "basic" {
 	key <AD11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ z, Z] };
 	key <AD12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ w, W] };
 
-	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A,U002A  ] };
-	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U,U002B  ] };
-	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I,U002D ] };
-	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E,equal ] };
+	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A,KP_Left,U002A  ] };
+	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U,KP_Right,U002B  ] };
+	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I,KP_Down,U002D ] };
+	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E,KP_Up,equal ] };
 	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, U003B, numbersign ] };
 	key <AC06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ c ,C, U20AC] };
 	key <AC07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ t, T, braceleft] };
@@ -46,15 +46,15 @@ xkb_symbols "basic" {
 	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M,U007C] };
 	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ugrave] };
 
-	key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ecircumflex, Ecircumflex] };
+	key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ KP_End] };
 	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave ,Agrave ,ampersand ] };
 	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y ,Y ,less ] };
 	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x ,X ,greater ] };
 	key <AB04> { type[group1] = "FOUR_LEVEL", [ period ,U2026 ,colon ] };
 	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K ] };
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe ,question ,U0060 ] };
-	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q ,Q ] };
-	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g ,G,dollar  ] };
+	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q ,Q,dollar ] };
+	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g ,G  ] };
 	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h ,H , dead_diaeresis] };
 	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F ] };
 	key <SPCE> { type[group1] = "FOUR_LEVEL", [ space ,slash ,underscore ,backslash ] };
