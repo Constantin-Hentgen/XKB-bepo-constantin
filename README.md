@@ -37,6 +37,23 @@ default  partial alphanumeric_keys
 xkb_symbols "basic" {
 ```
 
-1. When it's done, make sure you added the correct keyboard layout with `Gnome Settings` or `ibus`.
- - tips : I advice you to keep your previous layout *INTACT* and just edit another one in case an issue arises.
-1. Then you can logout or reboot to refresh the session.
+2. When it's done, make sure you added the correct keyboard layout with `Gnome Settings` or `ibus`.
+ - _tips : I advice you to keep your previous layout *INTACT* and just edit another one in case an issue arises._
+3. Then you can logout or reboot to refresh the session.
+4. Toggle to your new keyboard by selecting it in the 'gui' used by your system or by using the shortcut 'meta + space'
+
+## Boring stuff
+
+ - I'm not responsible of any issue caused while following this tutorial : this is a suggestion of help to use it, that's all (though I struggle to imagine how a problem could occur here…)
+
+There are two worst cases you could face.
+
+The first one is the following :
+   - you have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
+   - you _badly_ rewrited the file that rules this layout (making the layout nonfunctional)
+   - you logout and you don't succeed to login because the system is using 'default QWERTY us'
+
+The second one is :
+   - you have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
+   - you _correctly_ rewrited the file that rules this layout BUT you forgot a character that you need for your Session password
+   - you logout and you don't succeed to login
