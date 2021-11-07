@@ -1,4 +1,13 @@
 # xkb
+
+## What is "xkb" ?
+
+xkb file is a directory under linux based distribution that rules the keymaps. This means that the logic behind the keys pushed is saved in this directory and so allow us to custom our keyboard layouts.
+
+```
+/user/share/X11/xkb/symbols/fr
+```
+
 This is a part of one of the xkb configuration file under debian and redhat based distributions.
 It's a custom BÉPO keyboard layout in place of the traditionnal French AZERTY. 
 BÉPO is basically a French adaptation of the Dvorak one which is an optimized keyboard layout. 
