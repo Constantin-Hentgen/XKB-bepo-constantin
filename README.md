@@ -4,6 +4,7 @@
 
 xkb file is a directory under linux based distribution that rules the keymaps. This means that the logic behind the keys pushed is saved in this directory and so allow us to custom our keyboard layouts.
 
+The path to reach those documents is the following :
 ```
 /user/share/X11/xkb/symbols/fr
 ```
