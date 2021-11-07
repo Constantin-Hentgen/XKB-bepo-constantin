@@ -9,10 +9,16 @@ The path to reach those documents is the following :
 /user/share/X11/xkb/symbols/fr
 ```
 
-This is a part of one of the xkb configuration file under debian and redhat based distributions.
-It's a custom BÉPO keyboard layout in place of the traditionnal French AZERTY. 
-BÉPO is basically a French adaptation of the Dvorak one which is an optimized keyboard layout. 
-The greatest strength of this custom layout is the position of the most common special characters for coding.
+## What is the purpose of this repository ?
+
+Here is an archive of my keyboard's layout that allows me to find it wherever I am and also allows community to maybe get inspired by it.
+
+## What's the matter basically ?
+
+It's a custom BÉPO layout improved for coding and fast typing.
+BÉPO is basically a French adaptation of the Dvorak layout which has been made for English Dactylography.
+
+The points I touched upon in order to carry out that :
 
 1. Avoiding the dead keys
 2. Bringing brackets right under the right hand's fingers
@@ -21,3 +27,16 @@ The greatest strength of this custom layout is the position of the most common s
 |Here is the keymap of my BÉPO version|
 |-|
 |![image](https://bit.ly/3mRh5Ok)|
+
+## What if I want to try it out ?
+
+1. The only way possible is to copy my code and then paste it instead of the previous statement called :
+
+```
+default  partial alphanumeric_keys
+xkb_symbols "basic" {
+```
+
+1. When it's done, make sure you added the correct keyboard layout with `Gnome Settings` or `ibus`.
+ - tips : I advice you to keep your previous layout *INTACT* and just edit another one in case an issue arises.
+1. Then you can logout or reboot to refresh the session.
