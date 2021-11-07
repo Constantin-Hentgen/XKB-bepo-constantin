@@ -30,6 +30,8 @@ The points I touched upon in order to carry out that :
 
 ## What if I want to try it out ?
 
+_Read **entirely** the README if you really want to try it out : probable issues identified at the end_
+
 1. The only way possible is to copy my code and then paste it instead of the previous statement called :
 
 ```
@@ -49,11 +51,11 @@ xkb_symbols "basic" {
 There are two worst cases you could face.
 
 The first one is the following :
-   - you have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
-   - you _badly_ rewrited the file that rules this layout (making the layout nonfunctional)
-   - you logout and you don't succeed to login because the system is using `default QWERTY us`
+   - You have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
+   - You _badly_ rewrited the file that rules this layout (making the layout nonfunctional)
+   - You logout and you don't succeed to login because the system is using `default QWERTY us`
 
 The second one is :
-   - you have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
-   - you _correctly_ rewrited the file that rules this layout BUT you forgot a character that you need for your Session password
-   - you logout and you don't succeed to login
+   - You have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
+   - You _correctly_ rewrited the file that rules this layout BUT you forgot a character that you need for your Session password
+   - You logout and you don't succeed to login
