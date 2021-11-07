@@ -51,7 +51,7 @@ There are two worst cases you could face.
 The first one is the following :
    - you have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
    - you _badly_ rewrited the file that rules this layout (making the layout nonfunctional)
-   - you logout and you don't succeed to login because the system is using 'default QWERTY us'
+   - you logout and you don't succeed to login because the system is using `default QWERTY us`
 
 The second one is :
    - you have only one keyboard layout set up on your system which is not equal to the layout printed on your physical keyboard (or you have a blank keyboard)
