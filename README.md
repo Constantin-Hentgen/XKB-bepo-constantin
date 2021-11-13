@@ -6,7 +6,7 @@ xkb file is a directory under linux based distribution that rules the keymaps. T
 
 The path to reach those documents is the following :
 ```
-/user/share/X11/xkb/symbols/fr
+/user/share/X11/xkb/symbols/
 ```
 
 ## What is the purpose of this repository ?
