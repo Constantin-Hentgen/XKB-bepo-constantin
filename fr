@@ -6,7 +6,7 @@ xkb_symbols "basic" {
 	include "pc(pc105)"
 	include "level3(ralt_switch)"
 
-	key <TLDE> { type[group1] = "FOUR_LEVEL", [ U00B1 ] };
+	key <TLDE> { type[group1] = "FOUR_LEVEL", [ U20AC ] };
 	key <AE01> { type[group1] = "FOUR_LEVEL", [ 1 ] };
 	key <AE02> { type[group1] = "FOUR_LEVEL", [ 2 ] };
 	key <AE03> { type[group1] = "FOUR_LEVEL", [ 3 ] };
@@ -24,7 +24,7 @@ xkb_symbols "basic" {
 	key <AD02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ eacute, Eacute ] };
 	key <AD03> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ p, P ] };
 	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o, O ] };
-	key <AD05> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ egrave, Egrave, oe, OE ] };
+	key <AD05> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ egrave, Egrave, oe] };
 	key <AD06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ccedilla, exclam ] };
 	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v, V, braceright] };
 	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D, parenright] };
@@ -34,10 +34,10 @@ xkb_symbols "basic" {
 	key <AD12> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ w, W] };
 
 	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A, U00E2] };
-	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U, U00FB] };
+	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U, U00F4] };
 	key <AC03> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ i, I, U00EE] };
 	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, at ] };
-	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, U003B, numbersign ] };
+	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, U003B ] };
 	key <AC06> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ c, C ] };
 	key <AC07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ t, T, braceleft ] };
 	key <AC08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ s, S, parenleft ] };
@@ -46,11 +46,11 @@ xkb_symbols "basic" {
 	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, U007C ] };
 	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ugrave, percent, dollar ] };
 
-	key <LSGT> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ ecircumflex, Ecircumflex ] };
+	key <LSGT> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ ecircumflex, Ecircumflex,U00FB ] };
 	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave, Agrave, ampersand ] };
 	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, less ] };
 	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, greater ] };
-	key <AB04> { type[group1] = "FOUR_LEVEL", [ period, colon, U2026 ] };
+	key <AB04> { type[group1] = "FOUR_LEVEL", [ period, colon, numbersign ] };
 	key <AB05> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ k, K ] };
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe, question, U0060 ] };
 	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, U002B ] };
