@@ -26,7 +26,7 @@ The points I touched upon in order to carry out that :
 
 |Here is the keymap of my BÉPO version|
 |-|
-|![image](https://bit.ly/3mRh5Ok)|
+|![image](https://user-images.githubusercontent.com/48366000/141658946-da6947bb-9d0d-490c-b265-a44c4f33ef76.png)|
 
 ## What if I want to try it out ?
 
