@@ -7,23 +7,23 @@ xkb_symbols "basic" {
 	include "level3(ralt_switch)"
 
 	key <TLDE> { type[group1] = "FOUR_LEVEL", [ U20AC ] };
-	key <AE01> { type[group1] = "FOUR_LEVEL", [ 1 ] };
-	key <AE02> { type[group1] = "FOUR_LEVEL", [ 2 ] };
-	key <AE03> { type[group1] = "FOUR_LEVEL", [ 3 ] };
-	key <AE04> { type[group1] = "FOUR_LEVEL", [ 4 ] };
-	key <AE05> { type[group1] = "FOUR_LEVEL", [ 5 ] };
-	key <AE06> { type[group1] = "FOUR_LEVEL", [ 6 ] };
-	key <AE07> { type[group1] = "FOUR_LEVEL", [ 7 ] };
-	key <AE08> { type[group1] = "FOUR_LEVEL", [ 8 ] };
-	key <AE09> { type[group1] = "FOUR_LEVEL", [ 9 ] };
-	key <AE10> { type[group1] = "FOUR_LEVEL", [ 0 ] };
-	key <AE11> { type[group1] = "FOUR_LEVEL",  [ U20AC ] };
+	key <AE01> { type[group1] = "FOUR_LEVEL", [ 1,1,1,1 ] };
+	key <AE02> { type[group1] = "FOUR_LEVEL", [ 2,2,2,2 ] };
+	key <AE03> { type[group1] = "FOUR_LEVEL", [ 3,3,3,3 ] };
+	key <AE04> { type[group1] = "FOUR_LEVEL", [ 4,4,4,4 ] };
+	key <AE05> { type[group1] = "FOUR_LEVEL", [ 5,5,5,5 ] };
+	key <AE06> { type[group1] = "FOUR_LEVEL", [ 6,6,6,6 ] };
+	key <AE07> { type[group1] = "FOUR_LEVEL", [ 7,7,7,7 ] };
+	key <AE08> { type[group1] = "FOUR_LEVEL", [ 8,8,8,8 ] };
+	key <AE09> { type[group1] = "FOUR_LEVEL", [ 9,9,9,9 ] };
+	key <AE10> { type[group1] = "FOUR_LEVEL", [ 0,0,0,0 ] };
+	key <AE11> { type[group1] = "FOUR_LEVEL",  [ dead_circumflex ] };
 	key <AE12> { type[group1] = "FOUR_LEVEL",  [ dead_diaeresis ] };
 
-	key <AD01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ b, B ] };
+	key <AD01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ b, B, U0024 ] };
 	key <AD02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ eacute, Eacute ] };
 	key <AD03> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ p, P ] };
-	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o, O ] };
+	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o, O, U007C ] };
 	key <AD05> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ egrave, Egrave, oe] };
 	key <AD06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ccedilla, exclam ] };
 	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v, V, braceright] };
@@ -37,13 +37,13 @@ xkb_symbols "basic" {
 	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U, U00F4] };
 	key <AC03> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ i, I, U00EE] };
 	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, at ] };
-	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, U003B ] };
+	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, U003B, U007E ] };
 	key <AC06> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ c, C ] };
 	key <AC07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ t, T, braceleft ] };
 	key <AC08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ s, S, parenleft ] };
 	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, bracketleft ] };
 	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, quotedbl ] };
-	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, U007C ] };
+	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, U007C] };
 	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ugrave, percent, dollar ] };
 
 	key <LSGT> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ ecircumflex, Ecircumflex,U00FB ] };
